@@ -1,6 +1,7 @@
 # Minimal Notice Board 
 
 This is a minimal (no react, few deps) notice board for the LCB Villa Of Ones Own project.
+Check out one of the boards here [here](https://noticeboards.vooo.space/?board=start)
 
 ## Requirements 
 
