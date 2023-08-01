@@ -1,4 +1,4 @@
-name: Deploy fluentai
+name: Deploy VOOO Noticeboards
 
 on:
   push:

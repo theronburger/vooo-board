@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://unpkg.com/twgl.js"></script>
+    <link rel="stylesheet" href="src/noticeboard.css">
+    <link rel="stylesheet" href="src/bubbles.css">
+</head>
+<body>
+    <canvas id="canvas" class="background"></canvas>
+    <div class="foreground">
+        <div id="board">
+            <div class="bubbles bubbles1"data-max-particles="3" data-row-count="7"></div>
+            <div class="bubbles bubbles2" data-max-particles="2" data-row-count="10"></div>
+            <div class="bubbles bubbles3"data-max-particles="3" data-row-count="7"></div>
+            <div class="bubbles bubbles4"data-max-particles="2" data-row-count="10"></div>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/12.2.0/markdown-it.min.js"></script>
+<script src="src/notes.js"></script>
+<script src="src/plasmaGrid.js"></script>
+<script src="src/bubbles.js"></script>
+</html>

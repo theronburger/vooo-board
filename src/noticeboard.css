@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    /* overflow: hidden; */
+}
+.background {
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+
+.foreground {
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#board {
+    position: relative;
+    width: 75%;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    margin: 10rem;
+    background-color: hsla(139, 87%, 67%, 1.0);
+    border-radius: 2rem;
+    overflow: visible;
+}
+
+title {
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center;
+    font-family: serif;
+    font-size: 2rem;
+}
+
+.note {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+
+  }
+  .note img {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    z-index: 20;
+  }
+  .note .text {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    z-index: 30;
+  }

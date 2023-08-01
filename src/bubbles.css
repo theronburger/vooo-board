@@ -1,0 +1,34 @@
+.bubble {
+    position: absolute;
+    background-color: hsla(139, 87%, 67%, 1.0);
+}
+
+.bubbles {
+    position: absolute;
+    /* background-color: rgba(255, 228, 196, 0.75); */
+}
+.bubbles1 {
+    top: -7rem;
+    left: -7rem;
+    width: 20rem;
+    height: 15rem;
+}
+.bubbles2 {
+    top: -10rem;
+    left: -5rem;
+    width: 20rem;
+    height: 10rem;
+}
+.bubbles3 {
+    bottom: -7rem;
+    right: -7rem;
+    width: 20rem;
+    height: 15rem;
+}
+
+.bubbles4 {
+    bottom: -10rem;
+    right: -5rem;
+    width: 20rem;
+    height: 10rem;
+}
