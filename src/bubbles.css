@@ -8,27 +8,27 @@
     /* background-color: rgba(255, 228, 196, 0.75); */
 }
 .bubbles1 {
-    top: -7rem;
+    top: 0rem;
     left: -7rem;
-    width: 20rem;
+    width: 30rem;
     height: 15rem;
 }
 .bubbles2 {
-    top: -10rem;
-    left: -5rem;
-    width: 20rem;
+    top: -5rem;
+    left: -0rem;
+    width: 30rem;
     height: 10rem;
 }
 .bubbles3 {
-    bottom: -7rem;
+    bottom: 0rem;
     right: -7rem;
-    width: 20rem;
+    width: 30rem;
     height: 15rem;
 }
 
 .bubbles4 {
-    bottom: -10rem;
-    right: -5rem;
-    width: 20rem;
+    bottom: -5rem;
+    right: 0rem;
+    width: 30rem;
     height: 10rem;
 }
