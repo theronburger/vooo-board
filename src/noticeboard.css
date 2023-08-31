@@ -21,15 +21,12 @@ body {
 
 #board {
     position: relative;
-    width: 75%;
-    height: 75vh;
+    width: 90%;
+    height: 90vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     overflow: hidden;
-    margin: 10rem;
-    background-color: hsla(139, 87%, 67%, 1.0);
-    border-radius: 2rem;
     overflow: visible;
 }
 
